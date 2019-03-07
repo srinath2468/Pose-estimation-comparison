@@ -1,0 +1,2 @@
+set(zed_wrapper_MESSAGE_FILES "")
+set(zed_wrapper_SERVICE_FILES "/home/srinath/catkin_thesis/src/zed/src/zed-ros-wrapper/zed_wrapper/srv/set_initial_pose.srv;/home/srinath/catkin_thesis/src/zed/src/zed-ros-wrapper/zed_wrapper/srv/reset_odometry.srv;/home/srinath/catkin_thesis/src/zed/src/zed-ros-wrapper/zed_wrapper/srv/reset_tracking.srv;/home/srinath/catkin_thesis/src/zed/src/zed-ros-wrapper/zed_wrapper/srv/start_svo_recording.srv;/home/srinath/catkin_thesis/src/zed/src/zed-ros-wrapper/zed_wrapper/srv/stop_svo_recording.srv")
