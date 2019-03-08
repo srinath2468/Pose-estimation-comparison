@@ -39,20 +39,89 @@ def callback(image, boardpose, camInfo_msg):
     img_row = cv_image.shape[0]
     img_col = cv_image.shape[1]
     #print(cv_image.shape)
-    print(boardpose)
+    #print(boardpose)
     
     quat = [boardpose.pose.orientation.x, boardpose.pose.orientation.y, boardpose.pose.orientation.z, boardpose.pose.orientation.w]
-    q_rot = tf.transformations.quaternion_from_euler(-math.pi/4,0,0)
-    q_rot2 = tf.transformations.quaternion_from_euler(0,0,0)
+    
+    
+    # <<<<<<<<<<<<<<<<<<<<<<<<<< way point 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/5) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,math.pi/6,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+    
+    
+     # <<<<<<<<<<<<<<<<<<<<<<<<<< way point 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/14) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,0,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+
+ # <<<<<<<<<<<<<<<<<<<<<<<<<< way point 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+ 
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/2.5) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,-math.pi/12,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+    
+    
+    #<<<<<<<<<<<<<<<<<<<<<<<<< waypoint 4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+    
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/6) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,0,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< waypoint 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/1.3) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,math.pi/6,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+
+
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< waypoint 6 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/1.5) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(math.pi/6,0,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,math.pi/6,0)
+    
+    
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< waypoint 7 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/12) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,0,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+## <<<<<<<<<<<<<<<<<<<<waypoint 8>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/2.2) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,0,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+    
+    
+  ## <<<<<<<<<<<<<<<<<<<<waypoint 9>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+    
+    
+    
+    #q_rot = tf.transformations.quaternion_from_euler(0,0,-math.pi/2) #(y ,x ,z)
+    #q_rot2 = tf.transformations.quaternion_from_euler(0,math.pi/4,0)
+    #q_rot3 =  tf.transformations.quaternion_from_euler(math.pi/6,0,0)
+    
+    ##<<<<<<<<<<<<<<<<<<<<<<<<< WAYPOINT 10>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+    q_rot = tf.transformations.quaternion_from_euler(0,0,math.pi/20) #(y ,x ,z)
+    q_rot2 = tf.transformations.quaternion_from_euler(0,math.pi/14,0)
+    q_rot3 =  tf.transformations.quaternion_from_euler(0,0,0)
+
     quat = quaternion_multiply(q_rot,quat)
     quat = quaternion_multiply(q_rot2,quat)
+    quat = quaternion_multiply(q_rot3,quat)
     def republish_pose(boardpose):
       
       new_pose = PoseStamped()
       new_pose.header.frame_id ="zed_left_camera_optical_frame"
       new_pose.pose.position = boardpose.pose.position
-      new_pose.pose.orientation.x = quat[0]
-      new_pose.pose.orientation.y = quat[1]
+      new_pose.pose.orientation.x = quat[1]
+      new_pose.pose.orientation.y = quat[0]
       new_pose.pose.orientation.z = quat[2]
       new_pose.pose.orientation.w = quat[3]
       
