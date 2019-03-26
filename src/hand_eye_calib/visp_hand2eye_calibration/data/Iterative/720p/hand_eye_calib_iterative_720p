@@ -1,0 +1,26 @@
+
+no of calibration points received: 10
+[ INFO] [1552063189.760609529]: 2) QUICK SERVICE:
+[ INFO] [1552063189.764133621]: hand_camera: 
+translation: 
+  x: -0.974227
+  y: -0.368394
+  z: 0.495333
+rotation: 
+  x: -0.731162
+  y: 0.329448
+  z: -0.26476
+  w: 0.535507
+
+[ INFO] [1552063189.764186121]: 3) TOPIC STREAM:
+[ INFO] [1552063189.766080181]: hand_camera: 
+translation: 
+  x: -0.974227
+  y: -0.368394
+  z: 0.495333
+rotation: 
+  x: -0.731162
+  y: 0.329448
+  z: -0.26476
+  w: 0.535507
+

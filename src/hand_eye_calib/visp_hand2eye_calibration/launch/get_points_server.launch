@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+   <node pkg="visp_hand2eye_calibration" type="get_points_server.py" name="get_points_server" output="screen" > 
+   
+      <remap from="/track_checkerboard/camera_object_pose" to="/camera_object_pose"/>
+      <remap from="/tcp_pose" to="/ee_pose"/>
+
+   </node>
+
+</launch>

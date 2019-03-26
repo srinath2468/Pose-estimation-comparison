@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<!--   <node pkg="visp_hand2eye_calibration" type="track_checker_board.py" name="track_checker_board" output="screen" > -->
+  <node pkg="visp_hand2eye_calibration" type="aruco_pub.py" name="aruco_pub" output="screen" >
+  
+    
+    <!-- camera topic names -->
+  <!-- <param name="img_topic_name" value="/camera_left_image" type="str" />
+    <param name="pcl_topic_name" value="/camera_point_cloud" type="str"/>
+    <param name="cam_info_topic_name" value="/left_camera_info" type="str" /> --> 
+    
+    <!--<param name="img_topic_name" value="/nerian_stereo/left_image" type="str" />
+    <param name="pcl_topic_name" value="/nerian_stereo/point_cloud" type="str"/>-->
+    
+    
+    <param name="img_topic_name" value="/zed/rgb/image_rect_color" type="str" />
+    <param name="aruco_topic_name" value="/marker" type="str" />
+    <!--param name="pose_topic_name" value="/checkerpose" type="str"/-->
+    
+    <param name="cam_info_topic_name" value="/zed/rgb/camera_info" type="str" />
+    
+
+    
+    
+  </node>
+
+</launch>

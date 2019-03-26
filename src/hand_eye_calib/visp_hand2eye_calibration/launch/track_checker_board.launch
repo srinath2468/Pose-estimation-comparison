@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <node pkg="yiwu_vision" type="camera_info_splitter.py" name="camera_info_splitter" output="screen" >
+  </node>  
+  <node pkg="visp_hand2eye_calibration" type="track_tcp" name="track_tcp" output="screen" >
+  </node>
+<!--   <node pkg="visp_hand2eye_calibration" type="track_checker_board.py" name="track_checker_board" output="screen" > -->
+  <node pkg="visp_hand2eye_calibration" type="track_checkerboard" name="track_checkerboard" output="screen" >
+  
+    
+    <!-- camera topic names -->
+  <!-- <param name="img_topic_name" value="/camera_left_image" type="str" />
+    <param name="pcl_topic_name" value="/camera_point_cloud" type="str"/>
+    <param name="cam_info_topic_name" value="/left_camera_info" type="str" /> --> 
+    
+    <!--<param name="img_topic_name" value="/nerian_stereo/left_image" type="str" />
+    <param name="pcl_topic_name" value="/nerian_stereo/point_cloud" type="str"/>-->
+    
+    
+    <param name="img_topic_name" value="/rgb/image_rect_color" type="str" />
+    <param name="pcl_topic_name" value="/point_cloud/cloud_registered" type="str"/>
+    <param name="depth_img_topic_name" value="depth/depth_registered" type="str"/>
+    <param name="cam_info_topic_name" value="/rgb/camera_info" type="str" />
+    
+
+    
+    
+  </node>
+
+</launch>
