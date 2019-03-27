@@ -291,6 +291,8 @@ tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_marker_pose.c
 tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_marker_pose.cpp.o: /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp
 tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_marker_pose.cpp.o: /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/nonfree.hpp
 
+tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_node.cpp.o: /home/srinath/catkin_thesis/devel/include/marker_msgs/Fiducial.h
+tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_node.cpp.o: /home/srinath/catkin_thesis/devel/include/marker_msgs/FiducialDetection.h
 tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_node.cpp.o: /home/srinath/catkin_thesis/devel/include/marker_msgs/Marker.h
 tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_node.cpp.o: /home/srinath/catkin_thesis/devel/include/marker_msgs/MarkerDetection.h
 tuw_marker_detection/tuw_aruco/CMakeFiles/aruco_node.dir/src/aruco_node.cpp.o: /home/srinath/catkin_thesis/devel/include/tuw_aruco/ArUcoConfig.h

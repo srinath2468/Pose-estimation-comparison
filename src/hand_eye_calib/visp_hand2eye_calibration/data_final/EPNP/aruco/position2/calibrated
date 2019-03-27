@@ -1,0 +1,40 @@
+no of calibration points received: 7
+[ INFO] [1553613849.468076467]: 2) QUICK SERVICE:
+[ INFO] [1553613849.472924049]: hand_camera: 
+translation: 
+  x: -0.843137
+  y: -1.04567
+  z: 0.600614
+rotation: 
+  x: -0.761852
+  y: 0.326714
+  z: -0.116415
+  w: 0.547072
+
+[ INFO] [1553613849.473013102]: 3) TOPIC STREAM:
+[ INFO] [1553613849.475866355]: hand_camera: 
+translation: 
+  x: -0.843137
+  y: -1.04567
+  z: 0.600614
+rotation: 
+  x: -0.761852
+  y: 0.326714
+  z: -0.116415
+  w: 0.547072
+
+
+world --> offset
+
+- Translation: [-0.643, 0.376, 0.338]
+- Rotation: in Quaternion [-0.240, 0.748, 0.601, 0.148]
+            in RPY (radian) [1.846, 0.536, -2.929]
+            in RPY (degree) [105.769, 30.723, -167.841]
+
+world --> aftercalib
+
+At time 1553613995.838
+- Translation: [-0.582, 0.384, 0.467]
+- Rotation: in Quaternion [0.809, -0.160, 0.130, 0.550]
+            in RPY (radian) [1.973, -0.397, -0.127]
+            in RPY (degree) [113.068, -22.729, -7.273]

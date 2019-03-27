@@ -1,0 +1,35 @@
+[ INFO] [1553609228.285529991]: 3) TOPIC STREAM:
+[ INFO] [1553609228.286753660]: hand_camera: 
+translation: 
+  x: 0.227183
+  y: 0.524653
+  z: -0.810344
+rotation: 
+  x: 0.035888
+  y: -0.0829301
+  z: 0.220374
+  w: 0.971221
+
+
+
+world --> offset
+
+
+At time 1553609383.596
+- Translation: [-0.176, 0.339, 0.191]
+- Rotation: in Quaternion [-0.344, 0.880, 0.077, 0.318]
+            in RPY (radian) [-3.037, 0.660, -2.360]
+            in RPY (degree) [-174.009, 37.815, -135.245]
+
+
+
+world --> ellipse
+
+
+           
+At time 1553609382.128
+- Translation: [-0.263, 0.192, 0.243]
+- Rotation: in Quaternion [0.730, 0.634, -0.030, 0.253]
+            in RPY (radian) [2.778, 0.373, 1.361]
+            in RPY (degree) [159.158, 21.361, 77.991]
+

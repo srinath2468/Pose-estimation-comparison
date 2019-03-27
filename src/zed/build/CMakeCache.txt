@@ -294,7 +294,11 @@ CUDA_cusparse_LIBRARY:FILEPATH=/usr/local/cuda/lib64/libcusparse.so
 CUDA_nppc_LIBRARY:FILEPATH=/usr/local/cuda/lib64/libnppc.so
 
 //"nppi" library
+<<<<<<< HEAD
 CUDA_nppi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libnppi.so
+=======
+CUDA_nppi_LIBRARY:FILEPATH=CUDA_nppi_LIBRARY-NOTFOUND
+>>>>>>> 1620bc3694e564523a77c156280c14148bc08ede
 
 //"npps" library
 CUDA_npps_LIBRARY:FILEPATH=/usr/local/cuda/lib64/libnpps.so

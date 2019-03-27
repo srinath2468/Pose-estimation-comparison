@@ -1,0 +1,43 @@
+no of calibration points received: 10
+[ INFO] [1553597815.564515848]: 2) QUICK SERVICE:
+[ INFO] [1553597815.582340127]: hand_camera: 
+translation: 
+  x: -0.561243
+  y: -0.683525
+  z: 0.537637
+rotation: 
+  x: -0.760644
+  y: 0.302191
+  z: -0.181019
+  w: 0.545282
+
+[ INFO] [1553597815.582387473]: 3) TOPIC STREAM:
+[ INFO] [1553597815.584489445]: hand_camera: 
+translation: 
+  x: -0.561243
+  y: -0.683525
+  z: 0.537637
+rotation: 
+  x: -0.760644
+  y: 0.302191
+  z: -0.181019
+  w: 0.545282
+
+
+
+
+WORLD -> TOOL OFFSET
+
+- Translation: [-0.261, 0.436, 0.181]
+- Rotation: in Quaternion [-0.344, 0.880, 0.077, 0.318]
+            in RPY (radian) [-3.037, 0.660, -2.360]
+            in RPY (degree) [-174.003, 37.815, -135.238]
+
+WORLD ---> ARUCO
+
+At time 1553600831.776
+- Translation: [-0.229, 0.512, 0.208]
+- Rotation: in Quaternion [0.095, -0.384, 0.296, 0.869]
+            in RPY (radian) [-0.090, -0.809, 0.695]
+            in RPY (degree) [-5.135, -46.352, 39.825]
+At time 1553600832.776
