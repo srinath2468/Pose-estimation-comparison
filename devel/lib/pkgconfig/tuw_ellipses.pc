@@ -1,8 +1,0 @@
-prefix=/home/srinath/catkin_thesis/devel
-
-Name: tuw_ellipses
-Description: Description of tuw_ellipses
-Version: 0.1.1
-Cflags: -I/home/srinath/catkin_thesis/devel/include
-Libs: -L/home/srinath/catkin_thesis/devel/lib 
-Requires: 

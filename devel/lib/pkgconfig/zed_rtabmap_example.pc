@@ -1,8 +1,0 @@
-prefix=/home/srinath/catkin_thesis/devel
-
-Name: zed_rtabmap_example
-Description: Description of zed_rtabmap_example
-Version: 2.7.0
-Cflags: 
-Libs: -L/home/srinath/catkin_thesis/devel/lib 
-Requires: 

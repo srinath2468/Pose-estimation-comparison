@@ -1,8 +1,0 @@
-prefix=/home/srinath/catkin_thesis/devel
-
-Name: zed_ar_track_alvar_example
-Description: Description of zed_ar_track_alvar_example
-Version: 2.6.0
-Cflags: 
-Libs: -L/home/srinath/catkin_thesis/devel/lib 
-Requires: 

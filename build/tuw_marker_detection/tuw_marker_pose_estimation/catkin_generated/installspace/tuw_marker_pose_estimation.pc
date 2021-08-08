@@ -1,8 +1,0 @@
-prefix=/home/srinath/catkin_thesis/install
-
-Name: tuw_marker_pose_estimation
-Description: Description of tuw_marker_pose_estimation
-Version: 0.1.1
-Cflags: -I/home/srinath/catkin_thesis/install/include
-Libs: -L/home/srinath/catkin_thesis/install/lib 
-Requires: 
